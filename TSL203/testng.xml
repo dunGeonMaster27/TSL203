@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grid">
+  <test name="Test">
+    <classes>
+      <class name="com.lti.day9.GridExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Grid -->

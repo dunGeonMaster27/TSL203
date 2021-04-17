@@ -1,0 +1,4 @@
+browser = chrome
+url=http://google.com
+excelPath=C:\\Users\\vshadmin\\Desktop\\data.xlsx
+searchField=q

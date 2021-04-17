@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Node1(failed)" parallel="tests">
+    <parameter name="node" value="http://192.168.100.51:41711/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.lti.day9.GridExample">
+        <methods>
+          <include name="Execute"/>
+          <include name="AfterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.lti.day9.GridExample -->
+    </classes>
+  </test> <!-- Node1(failed) -->
+  <test name="Node3(failed)" parallel="tests">
+    <parameter name="node" value="http://192.168.100.51:41711/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.lti.day9.GridExample">
+        <methods>
+          <include name="Execute"/>
+          <include name="AfterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.lti.day9.GridExample -->
+    </classes>
+  </test> <!-- Node3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="grid111">
+  <classes>
+  <class name="com.lti.day8.GridExample"/>
+  </classes>
+  </test> <!-- grid111 -->
+  <test thread-count="5" name="grid112">
+  <classes>
+  <class name="com.lti.day8.GridExample"/>
+  </classes>
+  </test> <!-- grid112 -->
+</suite> <!-- Suite -->

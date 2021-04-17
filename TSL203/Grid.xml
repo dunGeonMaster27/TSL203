@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Node1">
+  <parameter name = "node" value = "http://192.168.100.51:2717/wd/hub" />
+  <parameter name = "browser" value = "chrome" />
+    <classes>
+      <class name="com.lti.day9.GridExample"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Node2">
+  <parameter name = "node" value = "http://192.168.100.206:48499/wd/hub" />
+  <parameter name = "browser" value = "chrome" />
+    <classes>
+      <class name="com.lti.day9.GridExample"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Node3">
+  <parameter name = "node" value = "http://192.168.100.51:2717/wd/hub" />
+  <parameter name = "browser" value = "firefox" />
+    <classes>
+      <class name="com.lti.day9.GridExample"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  <test name="Node4">
+  <parameter name = "node" value = "http://192.168.100.206:48499/wd/hub" />
+  <parameter name = "browser" value = "firefox" />
+    <classes>
+      <class name="com.lti.day9.GridExample"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
+
+
+

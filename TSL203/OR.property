@@ -1,0 +1,3 @@
+
+flightsTab=xpath:=//*[@id=\"myTopnav\"]/div[1]/ul/li[1]/a
+fromPort=xpath:=//*[@id='FromSector_show']

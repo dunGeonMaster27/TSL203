@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Grid">
+    <classes>
+      <class name="com.ltil.day4.RefTest"/>
+      <class name="com.lti.day7.Headless"/>
+      <class name="com.lti.day7.Read"/>
+      <class name="com.ltil.day5.NewTest7"/>
+      <class name="com.lti.day6.AllLinks"/>
+      <class name="com.ltil.day5.OracleTest"/>
+      <class name="com.lti.day7.ExecutePOM"/>
+      <class name="com.ltil.day4.NewTest"/>
+      <class name="com.lti.day8.NewTest"/>
+      <class name="com.ltil.day5.ExecuteKey"/>
+      <class name="com.lti.day6.ParaMetrization1"/>
+      <class name="com.lti.day6.ReadingProp"/>
+      <class name="com.ltil.day4.NewTest6"/>
+      <class name="com.ltil.day4.NewTest4"/>
+      <class name="com.ltil.day4.NewTest5"/>
+      <class name="com.ltil.day4.NewTest2"/>
+      <class name="com.ltil.day5.ReadingProp"/>
+      <class name="com.ltil.day4.NewTest3"/>
+      <class name="com.lti.day6.GroupExample"/>
+      <class name="com.lti.day6.ExecutedKey2"/>
+      <class name="com.lti.JUnitExample.Example2"/>
+      <class name="com.lti.JUnitExample.Example3"/>
+      <class name="com.lti.JUnitExample.Example4"/>
+      <class name="com.lti.day6.NewTest1"/>
+      <class name="com.lti.JUnitExample.FirstExample"/>
+      <class name="com.lti.day7.AllLinksImages"/>
+      <class name="com.lti.day7.Execute2"/>
+      <class name="com.ltil.day4.ParaMetrization"/>
+    </classes>
+  </test> <!-- Grid -->
+</suite> <!-- Suite -->
